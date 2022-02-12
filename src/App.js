@@ -5,19 +5,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+<<<<<<< HEAD
         <img src={logo} className="App-logo" alt="logo" />
         <h1> Bananas grow on trees</h1>
+=======
+>>>>>>> 25deb2a (Initialize title)
         <p>
-          This is the start of our Hacklahoma project
+          Welcome to Find my Friend!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
