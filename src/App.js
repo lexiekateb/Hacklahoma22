@@ -24,7 +24,10 @@ body.appendChild(butto);
 
 butto.addEventListener ("click",
 function() {
-  alert("Enter your information below:");
+  let name = prompt("Please enter your name", "Enter here");
+  if(name != null) {
+    let major = prompt("Please enter your major", "Enter here");
+  }
 });
 
 export default App;
